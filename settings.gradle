@@ -1,0 +1,4 @@
+rootProject.name = 'msa-service'
+include('service-coffee-member')
+include('service-coffee-order')
+include('service-coffee-status')
