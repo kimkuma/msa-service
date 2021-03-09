@@ -1,4 +1,4 @@
-package com.kuma04.msa.domain;
+package com.kuma04.msa.domain.model;
 
 import lombok.Getter;
 import lombok.Setter;

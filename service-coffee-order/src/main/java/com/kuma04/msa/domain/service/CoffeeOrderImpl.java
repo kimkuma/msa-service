@@ -1,8 +1,8 @@
-package com.kuma04.msa.service;
+package com.kuma04.msa.domain.service;
 
-import com.kuma04.msa.domain.CoffeeOrderVO;
-import com.kuma04.msa.domain.OrderEntity;
-import com.kuma04.msa.repository.CoffeeOrderRepository;
+import com.kuma04.msa.domain.model.CoffeeOrderVO;
+import com.kuma04.msa.domain.model.OrderEntity;
+import com.kuma04.msa.domain.repository.CoffeeOrderRepository;
 
 public class CoffeeOrderImpl implements CoffeeOrder{
 
