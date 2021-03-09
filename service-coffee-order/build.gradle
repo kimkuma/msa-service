@@ -5,9 +5,16 @@ dependencies {
     implementation 'com.h2database:h2:1.4.200'
 
     implementation 'org.springframework.boot:spring-boot-actuator:2.4.3'
-    implementation 'org.springframework.cloud:spring-cloud-starter-config:3.0.2'
-    implementation 'org.springframework.cloud:spring-cloud-starter-eureka:1.4.7.RELEASE'
-    implementation 'org.springframework.cloud:spring-cloud-starter-hystrix:1.4.7.RELEASE'
-    implementation 'org.springframework.cloud:spring-cloud-starter-feign:1.4.7.RELEASE'
+    implementation 'org.springframework.cloud:spring-cloud-starter-config:3.0.1'
+
+
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.0.1'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.0.1'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.2.7.RELEASE'
+
+/*  아래 버전들은 현재 최신 spring boot version 과 호환이 불가*/
+//    implementation 'org.springframework.cloud:spring-cloud-starter-feign:1.4.7.RELEASE'
+//    implementation 'org.springframework.cloud:spring-cloud-starter-eureka:1.4.7.RELEASE'
+//    implementation 'org.springframework.cloud:spring-cloud-starter-hystrix:1.4.7.RELEASE'
 
 }
